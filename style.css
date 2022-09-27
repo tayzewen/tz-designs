@@ -9,24 +9,34 @@
 }
 
 body {
-    background: url(assets/images/stripes.jpeg) no-repeat center center fixed; 
+    background: url(assets/images/stripes.jpeg) no-repeat center center fixed;
+    background-size:100%;
+    width:100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.container-fluid {
     -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 1s; /* Firefox < 16 */
-     -ms-animation: fadein 1s; /* Internet Explorer */
-      -o-animation: fadein 1s; /* Opera < 12.1 */
-         animation: fadein 1s;
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
 }
 
 section {
     background-color: antiquewhite;
     color: #002929;
     margin: 3rem 1rem;
-    padding: 1.5rem;
-    border-radius: 3vh;
+    padding: 2rem;
+    border-radius: 4vh;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
 }
 
 p {
