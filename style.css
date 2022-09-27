@@ -10,8 +10,6 @@
 
 body {
     background: url(assets/images/stripes.jpeg) no-repeat center center fixed;
-    background-size:100%;
-    width:100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

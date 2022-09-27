@@ -8,6 +8,7 @@ No media query since this is the default in Bootstrap */
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+
     section {
         margin: 3rem 5rem;
     }
@@ -35,7 +36,7 @@ No media query since this is the default in Bootstrap */
 
     .social-content {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
  }
