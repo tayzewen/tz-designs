@@ -3,6 +3,11 @@
     src: url(assets/Shorelines\ Script\ Bold.otf);
 }
 
+@font-face {
+    font-family: "Uniqueen";
+    src: url(assets/Uniqueen\ Bold.ttf);
+}
+
 body {
     background: url(assets/images/stripes.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -20,13 +25,23 @@ section {
     background-color: antiquewhite;
     color: #002929;
     margin: 3rem 1rem;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 3vh;
 }
 
 p {
     margin: 0;
     text-align: center;
+}
+
+h2 {
+    border-bottom: #002929 solid 2px;
+    font-family: "Uniqueen";
+    margin: 0 0 1rem 0;
+}
+
+h6 {
+    margin: 0 0 5px;
 }
 
 @keyframes fadein {
@@ -94,10 +109,17 @@ p {
 
 .title-icons a:link {
     text-decoration: none;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    /* ...and now for the proper property */
+    transition:.5s;
 }
 
 .title-icons a:hover {
     text-decoration: none;
+    color: #58C9DA;
 }
 
 .title-icons a:visited {
@@ -113,6 +135,7 @@ p {
 .about-content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
 }
 
@@ -121,10 +144,31 @@ p {
     text-align: left;
 }
 
-
 footer {
     text-align: center;
     padding: 2rem 0;
 }
 
+.social-content i {
+    padding: 0 10px;
+}
 
+.social-content p {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.social-buttons a:link {
+    color: #002929;
+    text-decoration: none;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    /* ...and now for the proper property */
+    transition:.5s;
+}
+
+.social-buttons a:hover {
+    color: #58C9DA;
+}

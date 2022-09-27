@@ -9,12 +9,39 @@ No media query since this is the default in Bootstrap */
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     section {
-        margin: 3rem 7rem;
+        margin: 3rem 5rem;
+    }
+    
+    .about-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+    section {
+        margin: 3rem 8rem;
+    }
+
+    .about-content {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-content {
+        display: flex;
+        justify-content: space-around;
+    }
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
     section {
         margin: 3rem 9rem;
     }
@@ -25,12 +52,9 @@ No media query since this is the default in Bootstrap */
         align-items: center;
     }
 
- }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    section {
-        margin: 3rem 9rem;
+    .social-content {
+        display: flex;
+        justify-content: space-evenly;
     }
 
  }
