@@ -17,11 +17,11 @@ body {
 }
 
 .container-fluid {
-    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 1s; /* Firefox < 16 */
-    -ms-animation: fadein 1s; /* Internet Explorer */
-    -o-animation: fadein 1s; /* Opera < 12.1 */
-    animation: fadein 1s;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
 }
 
 section {
@@ -31,10 +31,10 @@ section {
     padding: 2rem;
     border-radius: 4vh;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 1s; /* Firefox < 16 */
-    -ms-animation: fadein 1s; /* Internet Explorer */
-    -o-animation: fadein 1s; /* Opera < 12.1 */
-    animation: fadein 1s;
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
 }
 
 p {
@@ -164,17 +164,27 @@ footer {
 .social-content p {
     text-align: left;
     margin-top: 1rem;
+    width: 230px;
 }
 
-.social-buttons a:link {
-    color: #002929;
-    text-decoration: none;
+.social-buttons a {
+    font-size: 1.2rem;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     /* ...and now for the proper property */
     transition:.5s;
+}
+
+.social-buttons a:visited {
+    color: #002929;
+    text-decoration: none;
+}
+
+.social-buttons a:link {
+    color: #002929;
+    text-decoration: none;
 }
 
 .social-buttons a:hover {

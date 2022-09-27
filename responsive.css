@@ -39,6 +39,10 @@ No media query since this is the default in Bootstrap */
         justify-content: space-evenly;
     }
 
+    .social-content p {
+        text-align: center;
+    }
+
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
